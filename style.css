@@ -1,0 +1,68 @@
+. {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 0;
+}
+h1 + p {
+  margin-bottom: 0;
+}
+body {
+  text-align: center;
+  background-color: #464e51;
+  font-family: Sniglet, Roboto Slab, Noto Mono;
+  color: #ffffff;
+  margin: 0;
+}
+form {
+  background-color: #7df9;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 30px 20px;
+  max-width: 450px;
+  margin: 40px auto;
+}
+.form-control {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 96%;
+  padding: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+.form-control select {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+.form-control input[type="radio"], .form-control [type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+button {
+  background-color: #464e51;
+  width: 100%;
+  color: #ffffff;
+  display: block;
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid #777;
+  padding: 6px;
+  
+}

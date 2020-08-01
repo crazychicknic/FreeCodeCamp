@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  crazychicknic</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<header>
+  <h1 id="title"><strong>FreeCodeCamps Survey</strong></h1>
+  <p id="description">Thank you for taking your time to help us improve!</p>
+</header>
+
+<body>
+  <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+  <form id="survey-form">
+    <div class="form-control">
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" name="name" placeholder="enter your name here" required />
+    </div>
+    <div class="form-control">
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="enter your email here" required />
+    </div>
+    <div class="form-control">
+      <label id="number-label" for="number">Age:</label>
+      <input id="number" type="number" name="number"  placeholder="enter your age here" required min="12" max="99"/>
+    </div>
+    <div class="form-control">
+      <label for="like-most">What do you like the most on FreeCodeCamp?</label>
+      <select name="like-most" id="dropdown">
+        <option disabled="" selected="" value="">Please select an option</option>
+        <option value="Projects">Projects</option>
+        <option value="Forum">Forum</option>
+        <option value="Challenges">Challenges</option>
+        <option value="OpenSource">Opensource</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="form-control">
+      <label>Would you recommend FreeCodeCamp?</label>
+      <label for="recommend-1"><input id="recommend-1" name="recommend" type="radio" value="Yes">Yes</label>
+      <label for="recommend-2"><input id="recommend-2" name="recommend" type="radio" value="No">No</label>
+      <label for="recommend-3"><input id="recommend-3" name="recommend" type="radio" value="Maybe">Maybe</label>
+    </div>
+        <div class="form-control">
+          <label>What would you like us to improve? <small>(select all that apply)</small></label>
+          <label for="improve-1"><input type="checkbox" name="improve" id="improve-1" value="Front-end Projects">Front-end Projects</label> 
+<label for="improve-2"><input type="checkbox" name="improve" id="improve-2"value="Back-end Projects">Back-end Projects</label> 
+          <label for="improve-3"><input type="checkbox" name="improve" id="improve-3" value="Machine Learning">Machine Learning</label> 
+          <label for="improve-4"><input type="checkbox" name="improve" id="improve-4" value="Video">Videos</label> 
+           <label for="improve-5"><input type="checkbox" name="improve" id="improve-5" value="Forum">Forum</label> 
+           <label for="improve-6"><input type="checkbox" name="improve" id="improve-6" value="Community">Community</label>     
+    </div>
+    <div class="form-control">
+      <label for="comments">Do you have any comments or suggestions?</label>
+      <textarea name="comments" id="comments" placeholder="enter your comments here..."></textarea>
+    </div>
+    <button type="Submit" id="submit">Submit</button>
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
